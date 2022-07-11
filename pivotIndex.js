@@ -5,11 +5,11 @@ const pivotIndex =(nums)=>{
    let leftSum = 0; 
 
    nums.forEach((element) => totalSum += element);
-   for(let e=0; e<nums.length; e++){
-      if(totalSum - leftSum - nums[e] === leftSum){
-         return e;
+   for(let i=0; i<nums.length; i++){
+      if(totalSum - leftSum - nums[i] === leftSum){
+         return i;
       }
-      leftSum += nums[e]
+      leftSum += nums[i]
    }
    return -1;
 }
