@@ -6,3 +6,4 @@ const runningSum = function(nums) {
     return nums;
 }
 runningSum([3,1,2,10,1]);
+
