@@ -26,7 +26,7 @@ mySet.has(5); // false, 5 has been removed
 mySet.size; // 4, we just removed one value
 
 // iterate over items in set
-for (let item of mySet) console.log(item);
+for (let item of mySet) console.log('this',item);
 
 // convert set to array
 const myArr = Array.from(mySet); // [1, "some text", {a: 1, b: 2}]
@@ -41,3 +41,5 @@ mySet.forEach(function(value) {
 
 // Use the spread operator to convert a Set into an Array   
 const myArrs = [...mySet];
+
+
