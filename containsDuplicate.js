@@ -2,7 +2,7 @@ var containsDuplicate = function(nums) {
     return new Set(nums).size !== nums.length;
 };
 
-// this is faster 0(n)
+// this is faster 0(n) use this one
 
 
 //slower 0(n^2)
